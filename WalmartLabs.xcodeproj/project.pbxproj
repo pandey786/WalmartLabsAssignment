@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352C71CC201EF69200BE8668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352C71CB201EF69200BE8668 /* AppDelegate.swift */; };
+		352C71CE201EF69200BE8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352C71CD201EF69200BE8668 /* ViewController.swift */; };
+		352C71D1201EF69200BE8668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C71CF201EF69200BE8668 /* Main.storyboard */; };
+		352C71D3201EF69200BE8668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352C71D2201EF69200BE8668 /* Assets.xcassets */; };
+		352C71D6201EF69200BE8668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C71D4201EF69200BE8668 /* LaunchScreen.storyboard */; };
+		352C71E1201EF69200BE8668 /* WalmartLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352C71E0201EF69200BE8668 /* WalmartLabsTests.swift */; };
+		352C71EC201EF69200BE8668 /* WalmartLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352C71EB201EF69200BE8668 /* WalmartLabsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		352C71DD201EF69200BE8668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352C71C0201EF69200BE8668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352C71C7201EF69200BE8668;
+			remoteInfo = WalmartLabs;
+		};
+		352C71E8201EF69200BE8668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352C71C0201EF69200BE8668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352C71C7201EF69200BE8668;
+			remoteInfo = WalmartLabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		352C71C8201EF69200BE8668 /* WalmartLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		352C71CB201EF69200BE8668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		352C71CD201EF69200BE8668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		352C71D0201EF69200BE8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		352C71D2201EF69200BE8668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		352C71D5201EF69200BE8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		352C71D7201EF69200BE8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352C71DC201EF69200BE8668 /* WalmartLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352C71E0201EF69200BE8668 /* WalmartLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartLabsTests.swift; sourceTree = "<group>"; };
+		352C71E2201EF69200BE8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352C71E7201EF69200BE8668 /* WalmartLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352C71EB201EF69200BE8668 /* WalmartLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartLabsUITests.swift; sourceTree = "<group>"; };
+		352C71ED201EF69200BE8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352C71C5201EF69200BE8668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71D9201EF69200BE8668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71E4201EF69200BE8668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352C71BF201EF69200BE8668 = {
+			isa = PBXGroup;
+			children = (
+				352C71CA201EF69200BE8668 /* WalmartLabs */,
+				352C71DF201EF69200BE8668 /* WalmartLabsTests */,
+				352C71EA201EF69200BE8668 /* WalmartLabsUITests */,
+				352C71C9201EF69200BE8668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		352C71C9201EF69200BE8668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352C71C8201EF69200BE8668 /* WalmartLabs.app */,
+				352C71DC201EF69200BE8668 /* WalmartLabsTests.xctest */,
+				352C71E7201EF69200BE8668 /* WalmartLabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352C71CA201EF69200BE8668 /* WalmartLabs */ = {
+			isa = PBXGroup;
+			children = (
+				352C71CB201EF69200BE8668 /* AppDelegate.swift */,
+				352C71CD201EF69200BE8668 /* ViewController.swift */,
+				352C71CF201EF69200BE8668 /* Main.storyboard */,
+				352C71D2201EF69200BE8668 /* Assets.xcassets */,
+				352C71D4201EF69200BE8668 /* LaunchScreen.storyboard */,
+				352C71D7201EF69200BE8668 /* Info.plist */,
+			);
+			path = WalmartLabs;
+			sourceTree = "<group>";
+		};
+		352C71DF201EF69200BE8668 /* WalmartLabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				352C71E0201EF69200BE8668 /* WalmartLabsTests.swift */,
+				352C71E2201EF69200BE8668 /* Info.plist */,
+			);
+			path = WalmartLabsTests;
+			sourceTree = "<group>";
+		};
+		352C71EA201EF69200BE8668 /* WalmartLabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				352C71EB201EF69200BE8668 /* WalmartLabsUITests.swift */,
+				352C71ED201EF69200BE8668 /* Info.plist */,
+			);
+			path = WalmartLabsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		352C71C7201EF69200BE8668 /* WalmartLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352C71F0201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabs" */;
+			buildPhases = (
+				352C71C4201EF69200BE8668 /* Sources */,
+				352C71C5201EF69200BE8668 /* Frameworks */,
+				352C71C6201EF69200BE8668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalmartLabs;
+			productName = WalmartLabs;
+			productReference = 352C71C8201EF69200BE8668 /* WalmartLabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		352C71DB201EF69200BE8668 /* WalmartLabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352C71F3201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabsTests" */;
+			buildPhases = (
+				352C71D8201EF69200BE8668 /* Sources */,
+				352C71D9201EF69200BE8668 /* Frameworks */,
+				352C71DA201EF69200BE8668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352C71DE201EF69200BE8668 /* PBXTargetDependency */,
+			);
+			name = WalmartLabsTests;
+			productName = WalmartLabsTests;
+			productReference = 352C71DC201EF69200BE8668 /* WalmartLabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		352C71E6201EF69200BE8668 /* WalmartLabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352C71F6201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabsUITests" */;
+			buildPhases = (
+				352C71E3201EF69200BE8668 /* Sources */,
+				352C71E4201EF69200BE8668 /* Frameworks */,
+				352C71E5201EF69200BE8668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352C71E9201EF69200BE8668 /* PBXTargetDependency */,
+			);
+			name = WalmartLabsUITests;
+			productName = WalmartLabsUITests;
+			productReference = 352C71E7201EF69200BE8668 /* WalmartLabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352C71C0201EF69200BE8668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Durgesh Pandey";
+				TargetAttributes = {
+					352C71C7201EF69200BE8668 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					352C71DB201EF69200BE8668 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 352C71C7201EF69200BE8668;
+					};
+					352C71E6201EF69200BE8668 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 352C71C7201EF69200BE8668;
+					};
+				};
+			};
+			buildConfigurationList = 352C71C3201EF69200BE8668 /* Build configuration list for PBXProject "WalmartLabs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 352C71BF201EF69200BE8668;
+			productRefGroup = 352C71C9201EF69200BE8668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352C71C7201EF69200BE8668 /* WalmartLabs */,
+				352C71DB201EF69200BE8668 /* WalmartLabsTests */,
+				352C71E6201EF69200BE8668 /* WalmartLabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352C71C6201EF69200BE8668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352C71D6201EF69200BE8668 /* LaunchScreen.storyboard in Resources */,
+				352C71D3201EF69200BE8668 /* Assets.xcassets in Resources */,
+				352C71D1201EF69200BE8668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71DA201EF69200BE8668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71E5201EF69200BE8668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		352C71C4201EF69200BE8668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352C71CE201EF69200BE8668 /* ViewController.swift in Sources */,
+				352C71CC201EF69200BE8668 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71D8201EF69200BE8668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352C71E1201EF69200BE8668 /* WalmartLabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352C71E3201EF69200BE8668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352C71EC201EF69200BE8668 /* WalmartLabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		352C71DE201EF69200BE8668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352C71C7201EF69200BE8668 /* WalmartLabs */;
+			targetProxy = 352C71DD201EF69200BE8668 /* PBXContainerItemProxy */;
+		};
+		352C71E9201EF69200BE8668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352C71C7201EF69200BE8668 /* WalmartLabs */;
+			targetProxy = 352C71E8201EF69200BE8668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		352C71CF201EF69200BE8668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352C71D0201EF69200BE8668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		352C71D4201EF69200BE8668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352C71D5201EF69200BE8668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		352C71EE201EF69200BE8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		352C71EF201EF69200BE8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352C71F1201EF69200BE8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		352C71F2201EF69200BE8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		352C71F4201EF69200BE8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartLabs.app/WalmartLabs";
+			};
+			name = Debug;
+		};
+		352C71F5201EF69200BE8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartLabs.app/WalmartLabs";
+			};
+			name = Release;
+		};
+		352C71F7201EF69200BE8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartLabs;
+			};
+			name = Debug;
+		};
+		352C71F8201EF69200BE8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartLabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.WalmartLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartLabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		352C71C3201EF69200BE8668 /* Build configuration list for PBXProject "WalmartLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352C71EE201EF69200BE8668 /* Debug */,
+				352C71EF201EF69200BE8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352C71F0201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352C71F1201EF69200BE8668 /* Debug */,
+				352C71F2201EF69200BE8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352C71F3201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352C71F4201EF69200BE8668 /* Debug */,
+				352C71F5201EF69200BE8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352C71F6201EF69200BE8668 /* Build configuration list for PBXNativeTarget "WalmartLabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352C71F7201EF69200BE8668 /* Debug */,
+				352C71F8201EF69200BE8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352C71C0201EF69200BE8668 /* Project object */;
+}

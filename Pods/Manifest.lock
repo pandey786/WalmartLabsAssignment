@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - BBBadgeBarButtonItem (1.2)
+  - Nuke (6.0)
+  - ObjectMapper (3.1.0)
+  - SVProgressHUD (2.2.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - BBBadgeBarButtonItem
+  - Nuke
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  Nuke: d83812262734dad51e3c498cb1c4f7923f2b78c6
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+
+PODFILE CHECKSUM: d69eb0c4fc491e3b69b0c5d59fb5f6ebbb7595f8
+
+COCOAPODS: 1.3.1
